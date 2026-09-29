@@ -4,13 +4,13 @@
 
 ## 1. Thông tin học viên
 
-- **Họ và tên:**
-- **MSSV:**
+- **Họ và tên:** `Đỗ Thanh Lâm`
+- **MSSV:** 2A202602577
 - **Lớp:** K4-L3A
-- **Repository URL:**
-- **Commit SHA cuối:**
+- **Repository URL:** https://github.com/lamm45lamm/K4-L3A-Day13-DoThanhLam-2A202602577-Monitoring-LLMOps.git
+- **Commit SHA cuối:** 
 - **Challenge ID:**
-- **Tên project Langfuse cá nhân:** `day13-k4-l3a-<MSSV>`
+- **Tên project Langfuse cá nhân:** `day13-k4-l3a-2A202602577`
 
 ## 2. Evidence index
 
