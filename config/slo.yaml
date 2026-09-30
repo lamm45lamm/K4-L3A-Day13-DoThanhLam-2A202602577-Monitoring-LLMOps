@@ -7,7 +7,16 @@ primary_slo:
     total_event: 'event == "request_received"'
   target_percent: 99.5
   error_budget_percent: 0.5
-  note: Học viên phải giải thích hoặc điều chỉnh ngưỡng bằng baseline của mình.
+  rationale: >
+    Baseline đo từ data/logs.jsonl (111 response_sent, 0 lỗi): P50=160ms, P95=905ms,
+    P99=951ms, TTFT P95=55ms. Ngưỡng 3000ms cao hơn P99 baseline ~3x, đủ chỗ cho
+    biến động thật và chỉ bị vượt khi có sự cố (ví dụ incident rag_slow). Target
+    99.5% vì baseline hiện đạt ~100%, nên 99.5% vẫn nghiêm nhưng không báo nhầm.
+  error_budget:
+    window_minutes: 40320        # 28 ngày x 24h x 60
+    budget_minutes: 201.6        # 0.5% x 40320
+    per_10000_requests: 50       # tối đa 50 request chậm/lỗi trên 10000
+    policy: Dùng hết budget thì dừng thay đổi tính năng, chỉ làm ổn định.
 guardrails:
   error_rate_pct_max: 2
   daily_cost_usd_max: 2.5
