@@ -8,7 +8,7 @@
 - **MSSV:** 2A202602577
 - **Lớp:** K4-L3A
 - **Repository URL:** https://github.com/lamm45lamm/K4-L3A-Day13-DoThanhLam-2A202602577-Monitoring-LLMOps.git
-- **Commit SHA cuối:** `TODO sau khi commit cuối` (HEAD hiện tại 2339143 chưa gồm thay đổi CP2/CP3)
+- **Commit SHA cuối:** `8fe0ca40261c2a694b51ff02863f7092a0544f45`
 - **Challenge ID:** `day13-k4-l3a-monitoring-llmops-v1`
 - **Tên project Langfuse cá nhân:** `day13-k4-l3a-2A202602577`
 
